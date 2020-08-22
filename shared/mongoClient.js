@@ -13,7 +13,7 @@ module.exports = () => new Promise((resolve, reject) => {
                 }, 1000),
                 mongoConnection,
             })
-            console.log("Conector com sucesso ao MongoDB.");            
+            console.log("Conectado com sucesso ao MongoDB.");            
         }
         else{
             console.log("Erro ao conectar no MongoDB.")
