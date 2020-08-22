@@ -3,7 +3,6 @@ const createMongoClient = require("../shared/mongoClient");
 
 module.exports = async function (context, req) {
     const { id } = req.params;
-    console.log("id = " + id);
 
     const { client: MongoClient, closeConnectionFn } = await createMongoClient();
 
